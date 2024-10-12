@@ -18,7 +18,7 @@ auto-cpufreq,
 stacer,
 alternating-layouts-git.
 
-#optimization 
+# optimization 
 ```
 yay -S minq-ananicy-git
 sudo systemctl start ananicy.service
@@ -26,7 +26,7 @@ sudo systemctl enable ananicy.service
 
 ```
 stacer + auto-cpufreq
-##next tips
+## next tips
 ```
 journalctl --vacuum-size=30M  
 
